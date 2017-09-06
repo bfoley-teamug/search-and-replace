@@ -19,10 +19,6 @@ button.addEventListener('click', (e) => {
         alert("Please fill 'em both out"); 
         return ' '; 
            } else 
-             if (input.value !== before.textContent) {
-             alert("The word " + input.value + " doesn't match the quote"); 
-             return ' ';
-           } else 
          if (text[index] === text[index].toUpperCase()) {
           after = after.charAt(0).toUpperCase() + after.slice(1);
         }
