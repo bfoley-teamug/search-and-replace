@@ -23,8 +23,7 @@ button.addEventListener('click', (e) => {
 //        else if (input.value !== before.indexOf()) {
 //          alert("That word ain't there");
 //          return ' ';
-//        }
-     
+//        }    
        else 
          if (text[index] === text[index].toUpperCase()) {
           after = after.charAt(0).toUpperCase() + after.slice(1);
